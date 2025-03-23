@@ -10,4 +10,33 @@ h1 {
   color: #333;
 }
 
+ul{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  
+}
+ li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 20%;
+    padding: 2px;
+    margin: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+
+  }
+  img {
+    width: 70px;
+  } 
+   
+  p{
+    margin: 0;
+  }
+  
 
